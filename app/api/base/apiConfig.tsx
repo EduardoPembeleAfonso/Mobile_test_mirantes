@@ -1,6 +1,6 @@
 import axios, { InternalAxiosRequestConfig } from "axios";
 
-const baseURL = "https://e7e7-102-218-85-221.ngrok-free.app/v1";
+const baseURL = "https://backend-test-mirantes.onrender.com/v1";
 
 const ApiConfig = axios.create({ baseURL, timeout: 5000 });
 
